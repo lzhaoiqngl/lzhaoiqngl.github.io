@@ -1,4 +1,4 @@
-body{margin:0;padding:0;background:#000;font-size:12px;overflow:auto}
+body{margin:0;padding:0;background:#000;font-size:12px;overflow:hidden}
 #mainDiv{width:100%;height:100%}
 #content{width: 100%; height: 625px; margin-top: 168.5px; margin-left: 725px;}
 #loveHeart{float:left;width:670px;height:625px}
