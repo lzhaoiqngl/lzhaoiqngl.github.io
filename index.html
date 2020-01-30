@@ -52,7 +52,8 @@
 	<script type="text/javascript" src="jq.snow.js"></script>
 </head>
 
-<body>
+<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false"
+	onselectstart="event.returnValue=false">
 
 	<script>
 		$(function () {
@@ -87,7 +88,7 @@
 				<canvas id="garden" width="670" height="625"></canvas>
 				<div id="words">
 					<div id="messages" class="text">
-						我们已经相见了
+						我们见面了
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
